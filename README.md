@@ -1,36 +1,29 @@
-# NHS-Salary-Prediction
-In this project we will be predicting the salary of NHS member, based on historical data present over 2018-2020 values. 
 
+# NHS Salary Prediction Project
 
-```markdown
-# Salary Prediction Project
-
-This project aims to predict minimum and maximum salaries based on identified key features. It includes data preprocessing, feature selection, model training, and evaluation.
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Models](#models)
-- [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
+This project aims to predict minimum and maximum salaries based on identified key features. It includes data preprocessing, feature selection, and employs the Decision Tree Regressor for model training and evaluation.
 
 ## Overview
 
-Provide a brief introduction to your project. What problem does it solve? What data does it use?
-
+This project predicts salaries based on key features. It's designed to solve the problem of predicting the salaries of physicians working with NHS. The dataset used is https://www.kaggle.com/datasets/homelesssandwich/nhs-jobs.
+This data was scraped from the NHS jobs website.
+The dataset will be valuable to those who seek to understand the the job market of doctors for the NHS within the UK.
+This data only includes jobs that were deemed as being related to doctors from March 2019 to October 2019. Fields relating to a json file derive from a json file embedded in the HTML code. These fields are typically easier to work with as they contain less user inputted data.
+## Inspiration
+What variables constitute to salary?
+Can salary be predicted?
+What important bits of information can be extracted from the job descriptions?
 ## Features
 
-List the key features of your project. What are the main functionalities?
+- Data preprocessing
+- Feature selection
+- Model training and evaluation using the Decision Tree Regressor
 
 ## Getting Started
 
 ### Prerequisites
 
-List any prerequisites or dependencies needed to run the project. For example:
+Ensure you have the following dependencies installed:
 
 - Python 3.x
 - Pandas
@@ -39,7 +32,7 @@ List any prerequisites or dependencies needed to run the project. For example:
 
 ### Installation
 
-Provide step-by-step instructions on how to install the necessary dependencies and set up the project locally.
+Use the following command to install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
@@ -47,7 +40,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-Explain how to use your project. Include examples or code snippets if applicable.
+To use the project, run the following command:
 
 ```bash
 python main.py
@@ -55,21 +48,15 @@ python main.py
 
 ## Models
 
-Briefly describe the models used in your project.
+The project utilizes the Decision Tree Regressor, a machine learning algorithm that builds a tree-like model. In simple terms, it learns decision rules from the data to predict target values.
 
 ## Results
 
-Discuss the results of your project, including model performance metrics.
+The model performance metrics and results are discussed in the python files.
 
 ## Contributing
 
-If you want others to contribute to your project, provide guidelines on how to do so.
-
+Feel free to contribute.
 ## License
 
-This project is licensed under the [MIT License](LICENSE.md).
-```
-
-Remember to replace the placeholder text with specific details about your project. Additionally, include a `LICENSE.md` file in your project directory if you've chosen a specific license for your project.
-
-Feel free to customize the README based on the specific characteristics and requirements of your project.
+This project is licensed under the MIT License. See the [LICENSE.md](LICENSE.md) file for details.
