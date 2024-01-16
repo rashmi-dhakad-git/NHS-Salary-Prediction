@@ -1,6 +1,6 @@
 # NHS-Salary-Prediction
 In this project we will be predicting the salary of NHS member, based on historical data present over 2018-2020 values. 
-Certainly! Writing a README is an important aspect of sharing your project on GitHub. A good README provides information about the project, its purpose, how to set it up, and any other relevant details. Here's a template for a README for your salary prediction project:
+
 
 ```markdown
 # Salary Prediction Project
